@@ -22,7 +22,7 @@ const Sidebar = () => {
         },
         {
             label: 'Perfil',
-            href: '/users/123',
+            href: `/users/${currentUser?.id}`,
             icon: MdOutlineDataObject,
             auth: true
         }

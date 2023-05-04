@@ -19,7 +19,7 @@ const Avatar: React.FC<AvatarProps> = ({
     const onClick = useCallback((event:any) => {
             event.stopPropagation();
 
-            const url  = `/users/'${userId}`;
+            const url  = `/users/${userId}`;
 
             router.push(url);
     }, [router, userId]);
@@ -46,7 +46,7 @@ const Avatar: React.FC<AvatarProps> = ({
                 }}
                 alt="Avatar"
                 onClick={onClick}
-                src={fetchUser?.profileImage || '/images/burger_placeholder.png' }
+                src={fetchUser?.profileImage || '/images/placeholderhamburger.png' }
             />
 
         </div>
