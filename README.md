@@ -1,6 +1,6 @@
 # Anteproyecto
 
-- Título del proyecto: CómoComo
+- Título del proyecto: OnlyFood
 - Autor del proyecto: Javier Galván Poley
 
 ## Introducción al proyecto
